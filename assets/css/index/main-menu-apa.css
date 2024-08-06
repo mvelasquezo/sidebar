@@ -1,0 +1,36 @@
+.main-menu-tit.apa {
+    text-transform: uppercase;
+    color:          var( --black );
+    font-weight:    bold;
+    font-size:      11px;
+}
+
+.main-menu-item-anc.apa {
+    text-decoration:none;
+    color:          var( --grey );
+    font-weight:    bold;
+}
+
+.main-menu-item-anc.apa:hover {
+    border-radius:  0 15px 15px 0;
+    background:     var( --blue-bg );
+    color:          var( --primary );
+    inline-size:    100%;
+    transition:     all .5s ease;
+}
+
+.main-menu-item-anc.apa svg {
+    transform: translateX( var( --w184 ) );
+}
+
+.main-menu-item-anc.apa svg.active {
+    transform: translateX( 0 );
+}
+
+.main-menu-item-anc.apa svg > path {
+    fill: var( --grey );
+}
+
+.main-menu-item-anc.apa:hover svg > path {
+    fill: var( --primary );
+}

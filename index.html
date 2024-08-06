@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--base href="/" /-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--link rel="icon" href="data:," /-->
+    <link rel="icon" href="assets/icons/icon-192x192.png"/>
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href="assets/css/index/index.css"/>
+    
+    <title>Sidebar :: GT</title>
+</head>
+<body class="bdy apa">
+
+    <div class="sidebar apa">
+        
+        <div class="toggle-menu">
+          
+            <button id="uiBtnMenu" type="button" title="menú"
+                class="toggle-menu--button apa">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6ZM2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12ZM3 17C2.44772 17 2 17.4477 2 18C2 18.5523 2.44772 19 3 19H21C21.5523 19 22 18.5523 22 18C22 17.4477 21.5523 17 21 17H3Z" fill="black"/>
+                </svg>
+            </button>
+          
+            <div class="toggle-menu--logo">
+                <img src="assets/images/logo-24x24.png" alt="logo" />
+            </div>
+
+            <div class="toggle-menu--title apa">
+                <h2>No te rindas</h2>
+            </div>
+        </div>
+
+        <div class="main-menu">
+
+            <ul class="main-menu-list">
+
+                <li class="main-menu-item">
+                  <a href="#" class="main-menu-item-anc apa" title="Recibidos">
+                      <svg class="js-main-menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.44772 0.447715 2 1 2H23C23.5523 2 24 2.44772 24 3V8C24 8.55228 23.5523 9 23 9H22V21C22 21.5523 21.5523 22 21 22H3C2.44772 22 2 21.5523 2 21V9H1C0.447715 9 0 8.55228 0 8V3ZM20 20V9H4V20H20ZM22 7H21H3H2V4H22V7ZM10 11C9.44771 11 9 11.4477 9 12C9 12.5523 9.44771 13 10 13H14C14.5523 13 15 12.5523 15 12C15 11.4477 14.5523 11 14 11H10Z" fill="black"/>
+                      </svg>Recibidos</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#" class="main-menu-item-anc apa" title="Destacados">
+                        <svg class="js-main-menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8967 1.55738C12.7282 1.21607 12.3806 1 12 1C11.6194 1 11.2718 1.21607 11.1033 1.55738L8.24574 7.34647L1.85537 8.28051C1.47881 8.33555 1.16613 8.59956 1.04875 8.96157C0.931375 9.32358 1.02965 9.72083 1.30227 9.98636L5.92548 14.4894L4.83439 20.851C4.77004 21.2261 4.92429 21.6053 5.23226 21.8291C5.54024 22.0528 5.94853 22.0823 6.28545 21.9051L12 18.8998L17.7145 21.9051C18.0515 22.0823 18.4598 22.0528 18.7677 21.8291C19.0757 21.6053 19.23 21.2261 19.1656 20.851L18.0745 14.4894L22.6977 9.98636C22.9703 9.72083 23.0686 9.32358 22.9512 8.96157C22.8339 8.59956 22.5212 8.33555 22.1446 8.28051L15.7543 7.34647L12.8967 1.55738ZM9.80671 8.70262L12 4.25925L14.1933 8.70262C14.3388 8.99747 14.62 9.20193 14.9454 9.24949L19.8516 9.9666L16.3023 13.4236C16.0664 13.6534 15.9587 13.9845 16.0144 14.309L16.8518 19.1917L12.4655 16.8849C12.1741 16.7317 11.8259 16.7317 11.5345 16.8849L7.14818 19.1917L7.98561 14.309C8.04127 13.9845 7.93361 13.6534 7.69773 13.4236L4.14841 9.9666L9.05463 9.24949C9.37998 9.20193 9.66117 8.99747 9.80671 8.70262Z" fill="black"/>
+                        </svg>Destacados</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#" class="main-menu-item-anc apa" title="Pospuestos">
+                        <svg class="js-main-menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12ZM12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6V12C11 12.3788 11.214 12.725 11.5528 12.8944L15.5528 14.8944C16.0468 15.1414 16.6474 14.9412 16.8944 14.4472C17.1414 13.9532 16.9412 13.3526 16.4472 13.1056L13 11.382V6Z" fill="black"/>
+                        </svg>Pospuestos</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#" class="main-menu-item-anc apa" title="Enviados">
+                        <svg class="js-main-menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7071 1.29292C22.9306 1.5164 23.0262 1.81935 22.9939 2.11081C22.9848 2.19252 22.9657 2.27332 22.9366 2.35121L15.9439 22.3304C15.8084 22.7174 15.4504 22.9825 15.0408 22.9992C14.6311 23.0159 14.2527 22.7808 14.0862 22.4062L10.2424 13.7576L1.59386 9.91384C1.21918 9.74731 0.984115 9.36894 1.00083 8.95926C1.01754 8.54959 1.28265 8.19162 1.66965 8.05617L21.6488 1.06348C21.7271 1.03414 21.8085 1.01497 21.8907 1.00598C21.9511 0.999338 22.0117 0.998262 22.0717 1.00259C22.3032 1.01913 22.5301 1.11591 22.7071 1.29292ZM18.1943 4.3915L4.71107 9.11063L10.7785 11.8073L18.1943 4.3915ZM12.1927 13.2215L19.6085 5.80571L14.8894 19.289L12.1927 13.2215Z" fill="black"/>
+                        </svg>Enviados</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="main-menu">
+
+            <div class="main-menu-tit apa">Categorías</div>
+
+            <ul class="main-menu-list">
+
+                <li class="main-menu-item">
+                    <a href="#" class="main-menu-item-anc apa" title="Todos">
+                        <svg class="js-main-menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.10657 5.55395C3.27195 5.22692 3.61203 5 3.99999 5H20C20.388 5 20.728 5.22692 20.8934 5.55395L12 11.7793L3.10657 5.55395ZM1.00004 5.98266C0.999881 5.99253 0.999864 6.00239 0.999993 6.01225V18C0.999993 19.6523 2.34771 21 3.99999 21H20C21.6523 21 23 19.6523 23 18V6.01236C23.0001 6.00242 23.0001 5.99247 22.9999 5.98251C22.9905 4.33822 21.6464 3 20 3H3.99999C2.35349 3 1.00943 4.3383 1.00004 5.98266ZM21 7.92066V18C21 18.5477 20.5477 19 20 19H3.99999C3.45228 19 2.99999 18.5477 2.99999 18V7.92066L11.4265 13.8192C11.7709 14.0603 12.2291 14.0603 12.5735 13.8192L21 7.92066Z" fill="black"/>
+                        </svg>Todos</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#" class="main-menu-item-anc apa" title="Papelera">
+                        <svg class="js-main-menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 3.29289C9.48043 3.10536 9.73478 3 10 3H14C14.2652 3 14.5196 3.10536 14.7071 3.29289C14.8946 3.48043 15 3.73478 15 4V5H9V4C9 3.73478 9.10536 3.48043 9.29289 3.29289ZM7 5V4C7 3.20435 7.31607 2.44129 7.87868 1.87868C8.44129 1.31607 9.20435 1 10 1H14C14.7956 1 15.5587 1.31607 16.1213 1.87868C16.6839 2.44129 17 3.20435 17 4V5H19H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H20V20C20 20.7957 19.6839 21.5587 19.1213 22.1213C18.5587 22.6839 17.7957 23 17 23H7C6.20435 23 5.44129 22.6839 4.87868 22.1213C4.31607 21.5587 4 20.7957 4 20V7H3C2.44772 7 2 6.55228 2 6C2 5.44772 2.44772 5 3 5H5H7ZM6 7V20C6 20.2652 6.10536 20.5196 6.29289 20.7071C6.48043 20.8946 6.73478 21 7 21H17C17.2652 21 17.5196 20.8946 17.7071 20.7071C17.8946 20.5196 18 20.2652 18 20V7H16H8H6ZM10 10C10.5523 10 11 10.4477 11 11V17C11 17.5523 10.5523 18 10 18C9.44772 18 9 17.5523 9 17V11C9 10.4477 9.44772 10 10 10ZM15 17V11C15 10.4477 14.5523 10 14 10C13.4477 10 13 10.4477 13 11V17C13 17.5523 13.4477 18 14 18C14.5523 18 15 17.5523 15 17Z" fill="black"/>
+                        </svg>Papelera</a>
+                </li>
+
+            </ul>
+        </div>
+        
+        
+    </div>
+    
+    <section class="sctn apa"></section>
+
+    <script type="module" src="assets/js/index/index.js"></script>
+</body>
+</html>

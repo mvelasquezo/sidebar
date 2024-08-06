@@ -1,0 +1,17 @@
+.toggle-menu--button.apa {
+    border:             none;
+    background-color:   var( --white );
+    cursor:             pointer;
+}
+
+.toggle-menu--icon.apa {
+    font-size:  24px;
+    font-weight:800;
+}
+
+.toggle-menu--title.apa h2 {
+    font-size:  16px;
+    color:      var( --black );
+    font-weight:800;
+    line-height:24px;
+}

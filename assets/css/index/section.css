@@ -1,0 +1,12 @@
+@import "./section-apa.css";
+
+.sctn {
+    height: 100vh;
+    /*margin-left: 64px;*/
+    /*min-block-size: 100vh;*/
+    /*overflow: hidden;*/
+}
+
+.sctn.active {
+    margin-left: var( --w256 );
+}

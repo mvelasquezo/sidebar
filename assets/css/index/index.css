@@ -1,0 +1,17 @@
+@import "./index-apa.css";
+
+@import "./section.css";
+@import "./sidebar.css";
+@import "./toggle-menu.css";
+@import "./main-menu.css";
+
+:root {
+    --w256: 240px;
+    --w184: 184px;
+    --m184: -184px;
+}
+
+.bdy {
+    min-block-size: 100vh;
+    margin: 0;
+}

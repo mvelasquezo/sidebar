@@ -1,0 +1,16 @@
+@import "./sidebar-apa.css";
+
+.sidebar {
+    block-size: 100vh;
+    position:   fixed;
+    top:        0;
+    transform: translateX(-1%);
+    left:       var( --m184 );
+    inline-size:var( --w256 );
+}
+
+.sidebar.active {
+    transition: all 0.5s ease;
+    transform:  translateX(0%);
+    left: 0;
+}

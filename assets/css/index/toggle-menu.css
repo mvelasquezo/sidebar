@@ -1,0 +1,29 @@
+@import "./toggle-menu-apa.css";
+
+.toggle-menu {
+    display:        flex;
+    align-items:    center;
+    justify-content:flex-start;
+    gap:            5px;  
+}
+
+.toggle-menu--button {
+    padding: 17px 14px;
+    transform: translateX( var( --w184 ) );
+}
+
+.toggle-menu--button.active {
+    transform: translateX( 0 );
+}
+
+.toggle-menu--logo img {
+    display:    block;
+    /*margin:     auto;
+    inline-size:24px;*/
+    block-size: 24px;
+}
+
+.toggle-menu--title h2 {
+    margin:     0;
+    padding:    0;
+}

@@ -1,0 +1,33 @@
+@import "./main-menu-apa.css";
+
+.main-menu-tit {
+    margin-inline-start:15px;
+    margin-block-start: 10px;
+    margin-block-end:   10px;
+    display:            none;
+}
+
+.main-menu-tit.active {
+    display: inline-block;
+}
+
+.main-menu-list {
+    margin:     0;
+    padding:    0;
+    list-style: none;
+}
+
+.main-menu-item {
+    display:            flex;
+    align-items:        center;
+    margin-inline-end:  3px;
+}
+
+.main-menu-item-anc {
+    display:    flex;
+    align-items:center;
+    text-align: center;
+    gap:        20px;
+    inline-size:100%;
+    padding:    15px;
+}

@@ -1,0 +1,21 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap' );
+
+:root {
+    --black: #000; 
+    --primary: #0f56b3; 
+    --blue-bg: #C5DCFA; 
+    --grey: #787878;
+    --pink: #F49097;
+    --white: #FFF; 
+}
+
+.bdy.apa {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    background-color: var( --primary );
+    color: var( --white );
+
+    font-family: 'Manrope', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
